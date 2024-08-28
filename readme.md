@@ -17,23 +17,24 @@ The goal of this project is to learn and utilize HTML and CSS, focusing on build
 - **Custom Animations:** Smooth animations enhance user interactions, making the browsing experience engaging and visually appealing.
 - **CSV Data Filtering:** Load data from a CSV file and filter products based on user-defined criteria.
 
+## 🌻Key Code
+
 ## 🌻Screen shots
 <p float="left">
-  <img src="https://github.com/user-attachments/assets/96ea078b-3e55-4317-b97a-7c670ccc0b9f" alt="Kilian Main" width="45%" />
-  <img src="https://github.com/user-attachments/assets/28284dc8-2c84-47f4-a14b-7610795f5da3" alt="Kilian About" width="45%" />
+  <img src="https://github.com/user-attachments/assets/bad2226e-5cb9-49dc-9291-6851e52c6cad" alt="Main Page" width="45%" />
+  <img src="https://github.com/user-attachments/assets/a09fac6a-2908-40a4-aade-cf86a884e673" alt="About Us" width="45%" />
 </p>
 
 <p float="left">
-  <img src="https://github.com/user-attachments/assets/66bb81c7-cd04-4b90-9666-64347182e30f" alt="Kilian Perfumes" width="45%" />
-  <img src="https://github.com/user-attachments/assets/c904ec5c-cd3c-4def-b82c-5ce35b257d3c" alt="Kilian Perfumes Filter" width="45%" />
+  <img src="https://github.com/user-attachments/assets/9df95658-2668-4c77-958a-5ce09dc3cde0" alt="Perfumes" width="45%" />
+  <img src="https://github.com/user-attachments/assets/4ea173c9-f76e-42ca-a102-38ee23eb3513" alt="Filter Perfumes" width="45%" />
 </p>
 
 <p float="left">
-  <img src="https://github.com/user-attachments/assets/3402e638-a5ac-40b2-9664-477c1aa7fb01" alt="Kilian Detail" width="45%" />
-  
+  <img src="https://github.com/user-attachments/assets/6c9f3fdc-6208-4e28-9be2-ec69382b9eb6" alt="Perfume Detail" width="45%" />
 </p>
 
 <p float="left">
-  <img src="https://github.com/user-attachments/assets/6e485968-1d31-40f4-a16e-756f790ca3a9" alt="Kilian Login" width="45%" />
-  <img src="https://github.com/user-attachments/assets/577c9a3f-d730-4d35-a20a-868f6cf953b9" alt="Kilian Signup" width="45%" />
+  <img src="https://github.com/user-attachments/assets/fddd2fac-c405-47de-b556-24e6ddb2ba09" alt="Sign In" width="45%" />
+  <img src="https://github.com/user-attachments/assets/93a264c3-dd79-46f6-a2cd-a1e8e9d87e5e" alt="Sign Up" width="45%" />
 </p>
