@@ -12,6 +12,9 @@ The goal of this project is to learn and utilize HTML and CSS, focusing on build
 - Technology Stack: HTML, CSS, JavaScript
 
 ## 🌻Features
+- **Product Slider:** A sleek, interactive product slider allows users to browse through featured items effortlessly.
+- **Filtering Options:** Users can filter perfumes by categories such as fragrance family, gender, and price range.
+- **Custom Animations:** Smooth animations enhance user interactions, making the browsing experience engaging and visually appealing.
 
 ## 🌻Screen shots
 <p float="left">
