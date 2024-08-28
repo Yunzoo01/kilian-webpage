@@ -1,23 +1,28 @@
 # Kilian Webpage
 ## 🌻Demo Page
 https://kilian-webpage.netlify.app
+<br>
 
 ## 🌻Description
 This project is a final project in Tamwood for 1st module.
 The goal of this project is to learn and utilize HTML and CSS, focusing on building and styling web pages.
+<br>
 
 ## 🌻Getting Started
 - Development Environment: macOS Sonoma 14.5
 - Development Tools: Visual Studio Code
 - Technology Stack: HTML, CSS, JavaScript
+<br>
 
 ## 🌻Features
 - **Product Slider:** A sleek, interactive product slider allows users to browse through featured items effortlessly.
 - **Filtering Options:** Users can filter perfumes by categories such as fragrance family, gender, and price range.
 - **Custom Animations:** Smooth animations enhance user interactions, making the browsing experience engaging and visually appealing.
 - **CSV Data Filtering:** Load data from a CSV file and filter products based on user-defined criteria.
+<br>
 
 ## 🌻Key Code
+<br>
 
 ## 🌻Screen shots
 <p float="left">
