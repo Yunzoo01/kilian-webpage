@@ -6,6 +6,7 @@
 @import url('styles/font.css');
 @import url('styles/signin.css');
 @import url('styles/signup.css');
+@import url('styles/detail.css');
 
 * {
     box-sizing: border-box;
@@ -13,7 +14,6 @@
     padding: 0;
     font-family: 'Inter', sans-serif;
     scroll-behavior: smooth;
-    
   }
 
   

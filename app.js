@@ -79,6 +79,16 @@ document.addEventListener('DOMContentLoaded', function() {
           }, 400);
         }
       });
+
+      document.querySelectorAll('.product img').forEach(img => {
+        img.addEventListener('click', function() {
+            const link = this.parentElement.querySelector('a');
+            if (link) {
+                window.location.href = link.href;
+            }
+        });
+    });
+
   } else {
       console.error('Slider element not found.');
   }
@@ -130,10 +140,16 @@ document.addEventListener('DOMContentLoaded', function() {
             gridItem.setAttribute('data-family', product.Fragrance_Family);
             gridItem.setAttribute('data-name', product.Name);
             
+            // 제품 아이템에 링크 추가
+            const productLink = document.createElement('a');
+            productLink.href = `/pages/${product.Nam}.html`; 
+
               gridItem.innerHTML = `
+               <a href="/pages/${product.Name.toLowerCase().replace(/[^a-z0-9]/g, '_')}.html">
                   <img src="/assets/kilian/perfume_list/${product.Fragrance_Family}/${product.Name.toLowerCase().replace(/[^a-z0-9]/g, '_')}-1.avif" alt="${product.Name}">
                   <h3>${product.Name.replace(/_/g, ' ')}</h3>
                   <h2>Price: $${product.Price}</h2>
+                 </a>
               `;
       
               if (product.hasOwnProperty('soldOut') && product.soldOut === 'TRUE') {
@@ -203,3 +219,27 @@ document.addEventListener('DOMContentLoaded', function() {
 //#endregion
 
 
+document.addEventListener('DOMContentLoaded', function() {
+    const thumbnails = document.querySelectorAll('.thumbnail');
+    const productImage = document.querySelector('.product-image img');
+
+    thumbnails.forEach(thumbnail => {
+        thumbnail.addEventListener('click', function() {
+            productImage.src = this.src;
+        });
+    });
+
+    // 슬라이드의 좌우 버튼 클릭 시 이동하도록 설정
+    let currentIndex = 0;
+    const totalImages = thumbnails.length;
+
+    document.querySelector('.next').addEventListener('click', () => {
+        currentIndex = (currentIndex + 1) % totalImages;
+        productImage.src = thumbnails[currentIndex].src;
+    });
+
+    document.querySelector('.prev').addEventListener('click', () => {
+        currentIndex = (currentIndex - 1 + totalImages) % totalImages;
+        productImage.src = thumbnails[currentIndex].src;
+    });
+});
