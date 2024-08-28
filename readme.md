@@ -11,6 +11,17 @@ The goal of this project is to learn and utilize HTML and CSS, focusing on build
 - Development Tools: Visual Studio Code
 - Technology Stack: HTML, CSS, JavaScript
 
+## 🌻Authors and Contributors
+- **Author:** Yunju Jo (Yun)
+- **Referenced Design:**
+  - [Local Face | Perfume store web UI](https://www.figma.com/design/6Hk2cUL7Z7cyaIQUpXTaQ5/Local-Face-%7C-Perfume-store-web-UI-(Community)?m=auto&t=bVxah5lVWP3I3fqo-6) design. <br>Design Source: [Figma Community](https://www.figma.com/community)
+  - Kilian webpage : https://www.bykilian.com
+
+## 🌻How to use
+1. Clone the repository: `git clone [[repository URL](https://github.com/Yunzoo01/kilian-webpage.git)]`
+2. Open the `index.html` file in your web browser.
+3. Ensure that all assets are in the correct directories.
+
 ## 🌻Features
 - **Product Slider:** <br> A sleek, interactive product slider allows users to browse through featured items effortlessly.
 - **Filtering Options:**<br> Users can filter perfumes by categories such as fragrance family, gender, and price range.
