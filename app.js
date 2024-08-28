@@ -243,3 +243,4 @@ document.addEventListener('DOMContentLoaded', function() {
         productImage.src = thumbnails[currentIndex].src;
     });
 });
+

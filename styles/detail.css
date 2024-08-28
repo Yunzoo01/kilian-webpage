@@ -31,6 +31,11 @@
     display: block;
 }
 
+.product-image img.active {
+    opacity: 1; /* 활성화된 이미지가 보이도록 설정 */
+    position: relative;
+}
+
 .thumbnail-container {
     display: flex;
     justify-content: center;
@@ -169,15 +174,18 @@
 .key-notes h2 {
     font-size: 2rem;
     color: #f7931e;
-    margin-bottom: 20px;
+    margin-top: 60px;
+    margin: 30px;
     text-align: center;
 }
 
 .additional-details p,
 .key-notes p {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    width: 90%;
+    margin: 0 auto;
     color: #bbb;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
     text-align: center;
 }
 
