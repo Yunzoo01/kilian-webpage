@@ -1,4 +1,5 @@
-/* 전체 섹션 설정 */
+/* detail.css */
+
 .product-section {
     width: 90%;
     margin: auto;
@@ -8,9 +9,9 @@
     box-sizing: border-box;
 }
 
-/* 왼쪽 컬럼: 슬라이더와 썸네일 */
+/* Product Slider & Thumbnail */
 .left-column {
-    width: 55%; /* 왼쪽 컬럼 너비 */
+    width: 55%;
     box-sizing: border-box;
 }
 
@@ -32,7 +33,7 @@
 }
 
 .product-image img.active {
-    opacity: 1; /* 활성화된 이미지가 보이도록 설정 */
+    opacity: 1; 
     position: relative;
 }
 
@@ -55,12 +56,14 @@
     opacity: 1;
 }
 
-/* 오른쪽 컬럼: 제품 정보 */
+
+
+/* Product Information */
 .product-details {
-    width: 40%; /* 오른쪽 컬럼 너비 */
+    width: 40%; 
     box-sizing: border-box;
     padding-left: 20px;
-    color: #fff; /* 텍스트 색상 */
+    color: #fff; 
 }
 
 .product-details h1 {
@@ -161,7 +164,8 @@
     background-color: #e6831e;
 }
 
-/* 추가적인 스타일링 */
+
+/* Additional detail */
 .additional-details,
 .key-notes {
     max-width: 1200px;

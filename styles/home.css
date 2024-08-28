@@ -1,11 +1,12 @@
 /* home.css */
 
+/* hero-section */
 .hero-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 30px;
-    background-color: #131313; /* 배경 색상을 어둡게 설정 */
+    background-color: #131313;
     height: 700px;
     width: 100%;
     max-width: 1440px;
@@ -34,7 +35,7 @@
 
 .cta-button {
     display: inline-block;
-    background-color: #D2691E; /* 버튼 배경색 */
+    background-color: #D2691E; 
     color: white;
     padding: 10px 20px;
     text-decoration: none;
@@ -44,7 +45,7 @@
 }
 
 .cta-button:hover {
-    background-color: #A0522D; /* 버튼 호버시 색상 */
+    background-color: #A0522D; 
 }
 
 .hero-image img {
@@ -55,18 +56,17 @@
     
 }
 
-
-
+/* welcome-section */
 .welcome {
 display: block;
   text-align: center;
   padding: 50px 0;
-  background-image: url('/assets/kilian/perfume/welcome.jpg'); /* 상단 배경 이미지 */
+  background-image: url('/assets/kilian/perfume/welcome.jpg'); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-color: rgba(0, 0, 0, 0.8); /* 반투명 검은색 오버레이 */
-  background-blend-mode: darken; /* 배경 이미지와 오버레이 혼합 */
+  background-color: rgba(0, 0, 0, 0.8);
+  background-blend-mode: darken; 
   width: 100%;
   max-width: 1440px;
   margin: 0 auto;
@@ -77,7 +77,7 @@ display: block;
 .welcome h1 {
   font-size: 3rem;
   margin-bottom: 20px;
-  color: #f7931e; /* 주황색 제목 */
+  color: #f7931e;
   background-color: transparent; 
 }
 
@@ -90,6 +90,7 @@ display: block;
 }
 
 
+/* value section */
 .values-section {
   display: flex;
   justify-content: space-between;
@@ -116,7 +117,7 @@ display: block;
 .values-text h2 {
   font-size: 2.5rem;
   margin-bottom: 20px;
-  color: #f7931e; /* 주황색 제목 */
+  color: #f7931e; 
 }
 
 .values-text p {
@@ -127,6 +128,7 @@ display: block;
 
 
 
+/* best selling slider*/
 .slider-container {
   position: relative;
   width: 100%;
@@ -138,9 +140,9 @@ display: block;
 
 .slider-container h2 {
   color: #cc8f52;
-  margin-bottom: 30px;
+  margin: 30px 0px;
   text-align: center;
-  font-size: 30px;
+  font-size: 2.5rem;
 
 }
 

@@ -1,3 +1,5 @@
+/* style.css */
+
 @import url('styles/nav.css');
 @import url('styles/footer.css');
 @import url('styles/home.css');
@@ -8,30 +10,33 @@
 @import url('styles/signup.css');
 @import url('styles/detail.css');
 
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Inter', sans-serif;
-    scroll-behavior: smooth;
-  }
 
-  
+
 header {
     padding: 20px;
     text-align: center;
     background-color: #131313;
 }
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    scroll-behavior: smooth;
+  }
+
 main {
     max-width: 1440px;
-    margin: 30px auto; /* 가로 방향으로 중앙 정렬 */
+    margin: 30px auto;
     background-color: #131313;
 }
+
 
 body{
     background-color: #131313;
 }
+
 
 .title {
     font-size: 48px;

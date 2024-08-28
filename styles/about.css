@@ -1,26 +1,26 @@
 /* about.css */
 
+/* about */
 .about-us {
     padding: 50px 0;
-    background-image: url('/assets/kilian/perfume/about-us.jpg'); /* 상단 배경 이미지 */
+    background-image: url('/assets/kilian/perfume/about-us.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-color: rgba(0, 0, 0, 0.8); /* 반투명 검은색 오버레이 */
-    background-blend-mode: darken; /* 배경 이미지와 오버레이 혼합 */
+    background-color: rgba(0, 0, 0, 0.8);
+    background-blend-mode: darken; 
     width: 100%;
     max-width: 1440px;
     margin: 0 auto;
     color: white;
     height: 500px;
 
-    display: flex; /* Flexbox로 레이아웃 설정 */
-    flex-direction: column; /* 세로 방향으로 정렬 */
-    justify-content: center; /* 수직 중앙 정렬 */
-    align-items: center; /* 가로 중앙 정렬 */
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
     text-align: center;
   }
-  
   
   .about-us h1 {
     font-size: 3rem;
@@ -37,8 +37,7 @@
   }
 
 
-
-
+/* vision */
   .vision {
     max-width: 1440px;
     margin: 0 auto;
@@ -84,33 +83,30 @@
   }
   
 
-
-
-
-
-  .founder{
+/* founder */
+.founder{
     position: relative;
-    height: 700px; /* 섹션의 전체 높이 설정 */
+    height: 700px; 
 }
 
 .float-left {
     float: left;
-    width: 45%; /* 이미지의 너비 설정 */
+    width: 45%; 
     margin: 30px;
-    height: 600px; /* 이미지의 고정된 높이 설정 */
-    object-fit: cover; /* 이미지가 비율을 유지하면서 영역에 맞게 조정 */
+    height: 600px; 
+    object-fit: cover; 
     position: relative;
-    top: 50%; /* 부모 요소의 중앙에 위치 */
+    top: 50%; 
     transform: translateY(-50%); /* 요소의 중앙이 부모의 중앙에 오도록 이동 */
 }
 
 .founder-text {
     float: right;
-    width: 45%; /* 텍스트 부분의 너비 설정 */
+    width: 45%; 
     margin: 30px 0px;
     position: relative;
-    top: 50%; /* 부모 요소의 중앙에 위치 */
-    transform: translateY(-50%); /* 요소의 중앙이 부모의 중앙에 오도록 이동 */
+    top: 50%;
+    transform: translateY(-50%); 
 }
 
 .founder-text h2 {
@@ -124,4 +120,58 @@
     line-height: 1.6;
     color: white;
     font-size: 20px;
+}
+
+
+/* clearfix */
+/* object of desire*/
+.clearfix-container {
+  background-color: beige;
+  padding: 30px;
+  margin: 20px;
+}
+
+.clearfix-left-content {
+  float: left;
+  width: 48%;
+  padding: 20px;
+  color: black;
+  text-align: center;
+}
+
+.clearfix-left-content h2{
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 20px 20px;
+  letter-spacing: 2px;
+}
+
+.clearfix-left-content p{
+  font-size: 20px;
+  line-height: 1.4;
+  margin-bottom: 20px;
+ }
+
+.clearfix-right-content {
+  float: right;
+  width: 48%; 
+  height: 750px; 
+  position: relative;
+}
+
+.clearfix-right-content img {
+  position: absolute;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  max-width: 100%; 
+  min-height: 600px;
+  height: 100%;
+  object-fit: cover; 
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
 }

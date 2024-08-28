@@ -22,6 +22,7 @@
     </header>
     <main>
       <h1 class="title">Best Selling Products</h1>
+      <!-- filter (select) -->
       <section id="filters_design">
         <div class="filter-options">
           <label for="collections">Filter by</label>
@@ -32,14 +33,11 @@
             <option value="liquors">Liquors</option>
             <option value="narcotics">Narcotics</option>
             <option value="smokes">Smokes</option>
-            <!-- 추가적인 옵션들 -->
           </select>
-
           <select id="gender">
             <option value="all">All Genders</option>
             <option value="male">Male</option>
             <option value="female">Female</option>
-            <!-- 추가적인 옵션들 -->
           </select>
         </div>
         <div class="sort-options">
@@ -52,8 +50,9 @@
         </div>
       </section>
 
+      <!-- grid -->
       <section id="productGrid" class="grid-container">
-        <!-- 제품 추가 -->
+        <!-- Products filtered by the applied criteria are added to the grid using innerHTML. -->
       </section>
     </main>
 
