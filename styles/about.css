@@ -1,0 +1,127 @@
+/* about.css */
+
+.about-us {
+    padding: 50px 0;
+    background-image: url('/assets/kilian/perfume/about-us.jpg'); /* 상단 배경 이미지 */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.8); /* 반투명 검은색 오버레이 */
+    background-blend-mode: darken; /* 배경 이미지와 오버레이 혼합 */
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    color: white;
+    height: 500px;
+
+    display: flex; /* Flexbox로 레이아웃 설정 */
+    flex-direction: column; /* 세로 방향으로 정렬 */
+    justify-content: center; /* 수직 중앙 정렬 */
+    align-items: center; /* 가로 중앙 정렬 */
+    text-align: center;
+  }
+  
+  
+  .about-us h1 {
+    font-size: 3rem;
+    margin-bottom: 60px;
+    background-color: transparent; 
+  }
+  
+  .about-us p {
+    font-size: 1.2rem;
+    max-width: 900px;
+    margin: 0 auto;
+    line-height: 1.5;
+    background-color: transparent; 
+  }
+
+
+
+
+  .vision {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 50px 40px;
+    text-align: center;
+    background-color:beige;
+    opacity: 0.9;
+  }
+  .vision-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    background-color: transparent;
+  }
+  
+  .vision-header h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0 20px;
+    letter-spacing: 2px;
+    background-color: transparent;
+  }
+  
+  .left-line, .right-line {
+    flex-grow: 1;
+    height: 1px;
+    background-color: black;
+    border: none;
+  }
+
+  .vision-body {
+    width: 800px;
+    background-color: transparent;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .vision-body p{
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    background-color: transparent;
+  }
+  
+
+
+
+
+
+  .founder{
+    position: relative;
+    height: 700px; /* 섹션의 전체 높이 설정 */
+}
+
+.float-left {
+    float: left;
+    width: 45%; /* 이미지의 너비 설정 */
+    margin: 30px;
+    height: 600px; /* 이미지의 고정된 높이 설정 */
+    object-fit: cover; /* 이미지가 비율을 유지하면서 영역에 맞게 조정 */
+    position: relative;
+    top: 50%; /* 부모 요소의 중앙에 위치 */
+    transform: translateY(-50%); /* 요소의 중앙이 부모의 중앙에 오도록 이동 */
+}
+
+.founder-text {
+    float: right;
+    width: 45%; /* 텍스트 부분의 너비 설정 */
+    margin: 30px 0px;
+    position: relative;
+    top: 50%; /* 부모 요소의 중앙에 위치 */
+    transform: translateY(-50%); /* 요소의 중앙이 부모의 중앙에 오도록 이동 */
+}
+
+.founder-text h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: #f7931e;
+}
+
+.founder-text p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+    color: white;
+    font-size: 20px;
+}

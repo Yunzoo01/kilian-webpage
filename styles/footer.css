@@ -1,0 +1,92 @@
+ /* footer.css */
+
+ .footer__container {
+    background-color: #131313;
+    padding: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:80%;
+    margin: 0 auto;
+
+  }
+
+  .footer__top {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1400px;
+    margin-bottom: 20px; 
+}
+  
+  .footer__logo {
+    width: 300px;
+    margin: 30px;
+    align-self: center;
+}
+  
+  .footer__links {
+    display: flex;
+    justify-content: flex-end; /* 내부 텍스트들을 오른쪽으로 정렬 */
+    width: 100%; /* 부모 요소의 너비를 채우기 위해 */
+    max-width: 1200px;
+  }
+
+.footer__link--wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .footer__link--items {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 200px;
+    box-sizing: border-box;
+    gap: 7px;
+  }
+  
+  .footer__link--items h2 {
+    margin-bottom: 20px;
+    color: #ffd500;
+  }
+  
+  .footer__link--items a:link {
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    transition: 0.3 ease-out;
+  }
+
+  .footer__link--items a:visited {
+    color: skyblue;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    transition: 0.3 ease-out;
+  }
+  
+  .footer__link--items a:hover {
+    color: lightgreen;
+    transition: 0.3 ease-out;
+  }
+  
+
+
+  .footer__link--border {
+    width: 95%;
+    max-width: 1440px;
+    margin: 0 auto; /* center */
+    text-align: center;
+}
+
+.footer__link--border hr {
+    border: none; /* 중복된 테두리 제거 */
+    border-top: 1px solid #fff;
+    margin: 20px auto; 
+    flex:1;
+}
+
+.footer__link--border p {
+    color: #fff;
+    margin-top: 10px;
+}

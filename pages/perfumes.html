@@ -1,0 +1,59 @@
+<!--perfumes.html-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kilian</title>
+    <link rel="stylesheet" href="../style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <!-- load the navbar -->
+      <div id="navbar-placeholder"></div>
+    </header>
+    <main>
+      <h1 class="title">Best Selling Products</h1>
+      <section id="filters_design">
+        <div class="filter-options">
+          <label for="collections">Filter by</label>
+          <select id="fragranceFamilies">
+            <option value="all">All Fragrance Families</option>
+            <option value="cellars">Cellars</option>
+            <option value="fresh">Fresh</option>
+            <option value="liquors">Liquors</option>
+            <option value="narcotics">Narcotics</option>
+            <option value="smokes">Smokes</option>
+            <!-- 추가적인 옵션들 -->
+          </select>
+
+          <select id="gender">
+            <option value="all">All Genders</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <!-- 추가적인 옵션들 -->
+          </select>
+        </div>
+        <div class="sort-options">
+          <label for="sort-by">Sort by</label>
+          <select id="sort">
+            <option value="bestSelling">Best items</option>
+            <option value="priceLowHigh">Low prices</option>
+            <option value="priceHighLow">High prices</option>
+          </select>
+        </div>
+      </section>
+
+      <section id="productGrid" class="grid-container">
+        <!-- 제품 추가 -->
+      </section>
+    </main>
+
+    <!-- load the footer -->
+    <div id="footer-placeholder"></div>
+
+    <script src="../app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,43 @@
+@import url('styles/nav.css');
+@import url('styles/footer.css');
+@import url('styles/home.css');
+@import url('styles/perfumes.css');
+@import url('styles/about.css');
+@import url('styles/font.css');
+@import url('styles/signin.css');
+@import url('styles/signup.css');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+    
+  }
+
+  
+header {
+    padding: 20px;
+    text-align: center;
+    background-color: #131313;
+}
+
+main {
+    max-width: 1440px;
+    margin: 30px auto; /* 가로 방향으로 중앙 정렬 */
+    background-color: #131313;
+}
+
+body{
+    background-color: #131313;
+}
+
+.title {
+    font-size: 48px;
+    color: #f5a623;
+    margin: 50px;
+    text-align: center;
+}
+ 
+

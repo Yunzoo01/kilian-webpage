@@ -1,0 +1,33 @@
+<!-- Navbar Section -->
+<nav class="navbar">
+  <div class="navbar__container">
+    <a href="/index.html">
+      <picture>
+        <source
+          srcset="../assets/logos/logo-white.png"
+          media="(min-width: 768px)"
+          type="image/png"
+        />
+        <source
+          srcset="../assets/logos/logo-white-small.png"
+          media="(max-width: 767px)"
+          type="image/png"
+        />
+        <img src="../assets/logos/logo-white.png" alt="Description of the image" />
+      </picture>
+    </a>
+    <ul class="navbar__menu">
+      <li class="navbar__item">
+        <a href="/index.html" class="navbar__links">Home</a>
+      </li>
+      <li class="navbar__item">
+        <a href="/pages/about.html" class="navbar__links">About</a>
+      </li>
+      <li class="navbar__item">
+        <a href="/pages/perfumes.html" class="navbar__links">Perfumes</a>
+      </li>
+      <button class="signin-btn navbar__item"  onclick="location.href='/pages/signin.html'">Sign In</button>
+    </ul>
+    
+  </div>
+</nav>

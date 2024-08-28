@@ -1,0 +1,203 @@
+/* home.css */
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    background-color: #131313; /* 배경 색상을 어둡게 설정 */
+    height: 700px;
+    width: 100%;
+    max-width: 1440px;
+    color: white;
+    margin: 0 auto;
+}
+
+.hero-content {
+  margin-left: 30px;
+  max-width: 45%;
+    
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+    
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #D2691E; /* 버튼 배경색 */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #A0522D; /* 버튼 호버시 색상 */
+}
+
+.hero-image img {
+    max-width: 80%;
+    height: auto;
+    object-fit: cover;
+    float: inline-end;
+    
+}
+
+
+
+.welcome {
+display: block;
+  text-align: center;
+  padding: 50px 0;
+  background-image: url('/assets/kilian/perfume/welcome.jpg'); /* 상단 배경 이미지 */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.8); /* 반투명 검은색 오버레이 */
+  background-blend-mode: darken; /* 배경 이미지와 오버레이 혼합 */
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  color: white;
+}
+
+
+.welcome h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #f7931e; /* 주황색 제목 */
+  background-color: transparent; 
+}
+
+.welcome p {
+  font-size: 1.2rem;
+  max-width: 900px;
+  margin: 0 auto;
+  line-height: 1.5;
+  background-color: transparent; 
+}
+
+
+.values-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.values-image img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+
+.values-text {
+  max-width: 50%;
+  padding-left: 80px;
+}
+
+.values-text h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #f7931e; /* 주황색 제목 */
+}
+
+.values-text p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: white;
+}
+
+
+
+.slider-container {
+  position: relative;
+  width: 100%;
+  max-width: 1440px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0;
+}
+
+.slider-container h2 {
+  color: #cc8f52;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 30px;
+
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.4s ease-in-out;
+}
+
+.product {
+  min-width: calc(100% / 4);
+  box-sizing: border-box;
+  text-align: center;
+  padding: 10px;
+}
+
+.product:hover {
+  transition: transform 0.3s ease;
+  transform: scale(1.05);
+}
+
+.product img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.product h3 {
+  font-size: 18px;
+  margin: 10px 0;
+  color: #fff;
+}
+
+.product p {
+  font-size: 16px;
+  color: #cc8f52;
+}
+
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 100;
+  background-color: #131313;
+
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+}
+
+.prev {
+  left: 0px;
+}
+
+.next {
+  right: 0px;
+}
