@@ -2,16 +2,16 @@
 
 /* hero-section */
 .hero-section {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px;
-    background-color: #131313;
-    height: 700px;
-    width: 100%;
-    max-width: 1440px;
-    color: white;
-    margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  background-color: #131313;
+  height: 700px;
+  width: 100%;
+  max-width: 1440px;
+  color: white;
+  margin: 0 auto;
 }
 
 .hero-content {
@@ -34,9 +34,9 @@
 }
 
 .cta-button {
-    display: inline-block;
-    background-color: #D2691E; 
-    color: white;
+  display: inline-block;
+  background-color: #D2691E; 
+  color: white;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
@@ -49,16 +49,16 @@
 }
 
 .hero-image img {
-    max-width: 80%;
-    height: auto;
-    object-fit: cover;
-    float: inline-end;
+  max-width: 80%;
+  height: auto;
+  object-fit: cover;
+  float: inline-end;
     
 }
 
 /* welcome-section */
 .welcome {
-display: block;
+  display: block;
   text-align: center;
   padding: 50px 0;
   background-image: url('/assets/kilian/perfume/welcome.jpg'); 

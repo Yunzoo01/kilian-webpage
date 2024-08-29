@@ -205,12 +205,12 @@ document.addEventListener('DOMContentLoaded', function() {
           const name = item.getAttribute('data-name'); // Name 값 가져오기
   
           item.addEventListener('mouseover', () => {
-              console.log(`Mouseover: Switching to /assets/kilian/perfume_list/${family}/${name.toLowerCase().replace(/[^a-z0-9]/g, '_')}-2.avif`);
+              // console.log(`Mouseover: Switching to /assets/kilian/perfume_list/${family}/${name.toLowerCase().replace(/[^a-z0-9]/g, '_')}-2.avif`);
               img.src = `/assets/kilian/perfume_list/${family}/${name.toLowerCase().replace(/[^a-z0-9]/g, '_')}-2.avif`; // 마우스 오버 시 변경될 이미지
           });
   
           item.addEventListener('mouseout', () => {
-              console.log(`Mouseout: Switching back to /assets/kilian/perfume_list/${family}/${name.toLowerCase().replace(/[^a-z0-9]/g, '_')}-1.avif`);
+              // console.log(`Mouseout: Switching back to /assets/kilian/perfume_list/${family}/${name.toLowerCase().replace(/[^a-z0-9]/g, '_')}-1.avif`);
               img.src = `/assets/kilian/perfume_list/${family}/${name.toLowerCase().replace(/[^a-z0-9]/g, '_')}-1.avif`; // 원래 이미지로 복구
           });
       });
